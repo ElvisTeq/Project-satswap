@@ -1,0 +1,25 @@
+.main {
+  padding: 0 18%;
+  padding-top: 3em;
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+}
+
+.container {
+}
+
+.row {
+}
+
+.col {
+  display: inline-block;
+  vertical-align: top;
+  width: 25%;
+}
+
+.list {
+}
+
+.small {
+}

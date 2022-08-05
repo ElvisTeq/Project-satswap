@@ -1,0 +1,22 @@
+.box {
+  display: flex;
+}
+
+.title {
+  position: relative;
+  display: inline-block;
+}
+
+.title p {
+  font-size: 20px;
+}
+
+.img {
+  box-sizing: border-box;
+  display: inline-block;
+  width: initial;
+  height: initial;
+  margin-left: auto;
+  position: right;
+  max-width: 100%;
+}
