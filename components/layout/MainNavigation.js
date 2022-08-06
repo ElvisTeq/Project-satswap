@@ -4,14 +4,16 @@ import classes from "./MainNavigation.module.css";
 function MainNavigation() {
   return (
     <header className={classes.header}>
-      <div className={classes.logo}>Satswap</div>
+      <Link href="/" className={classes.logo}>
+        Satswap
+      </Link>
       <nav>
         <ul>
           <li>
-            <Link href="/">Whatever</Link>
+            <Link href="/log-in">Log In</Link>
           </li>
           <li>
-            <Link href="/sign-in">Sign In</Link>
+            <Link href="/sign-up">Sign Up</Link>
           </li>
         </ul>
       </nav>
