@@ -1,8 +1,15 @@
+import SignUpForm from "../../components/Forms/SignUpForm";
+import Head from "next/head";
+import { Fragment } from "react";
+
 const SignUp = () => {
   return (
-    <div>
-      <p>Sign Up Page</p>
-    </div>
+    <Fragment>
+      <Head>
+        <title>Sign Up</title>
+      </Head>
+      <SignUpForm />
+    </Fragment>
   );
 };
 
