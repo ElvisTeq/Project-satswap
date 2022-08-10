@@ -7,6 +7,10 @@ const SignUp = () => {
     <Fragment>
       <Head>
         <title>Sign Up</title>
+        <link
+          rel="stylesheet"
+          href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.5.0/font/bootstrap-icons.css"
+        />
       </Head>
       <SignUpForm />
     </Fragment>

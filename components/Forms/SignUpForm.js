@@ -1,6 +1,7 @@
-// import "./SignUpForm.module.css";
 import "bootstrap/dist/css/bootstrap.css";
-import React, { useEffect, useState } from "react";
+import "@fortawesome/fontawesome-free/css/all.min.css";
+import React, { useState } from "react";
+import "mdbreact/dist/css/mdb.css";
 import dynamic from "next/dynamic";
 
 // import {
