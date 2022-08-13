@@ -1,8 +1,5 @@
-import "bootstrap/dist/css/bootstrap.css";
 import "./SignUpForm.module.css";
-import "@fortawesome/fontawesome-free/css/all.min.css";
 import React, { useState } from "react";
-import "mdbreact/dist/css/mdb.css";
 import dynamic from "next/dynamic";
 
 // import {
@@ -103,6 +100,7 @@ const SignUpForm = () => {
       <MDBCard
         className="mx-5 mb-5 p-5 shadow-5"
         style={{
+          borderRadius: "1rem",
           marginTop: "-80px",
           background: "#333333",
           backdropFilter: "blur(30px)",
@@ -158,37 +156,37 @@ const SignUpForm = () => {
             <MDBBtn
               tag="a"
               color="none"
-              className="mx-3"
-              style={{ color: "#1266f1" }}
+              className="m-3"
+              style={{ color: "white" }}
             >
-              <MDBIcon fab icon="facebook-f" size="sm" />
+              <MDBIcon fab icon="facebook-f" size="lg" />
             </MDBBtn>
 
             <MDBBtn
               tag="a"
               color="none"
-              className="mx-3"
-              style={{ color: "#1266f1" }}
+              className="m-3"
+              style={{ color: "white" }}
             >
-              <MDBIcon fab icon="twitter" size="sm" />
+              <MDBIcon fab icon="twitter" size="lg" />
             </MDBBtn>
 
             <MDBBtn
               tag="a"
               color="none"
-              className="mx-3"
-              style={{ color: "#1266f1" }}
+              className="m-3"
+              style={{ color: "white" }}
             >
-              <MDBIcon fab icon="google" size="sm" />
+              <MDBIcon fab icon="google" size="lg" />
             </MDBBtn>
 
             <MDBBtn
               tag="a"
               color="none"
-              className="mx-3"
-              style={{ color: "#1266f1" }}
+              className="m-3"
+              style={{ color: "white" }}
             >
-              <MDBIcon fab icon="github" size="sm" />
+              <MDBIcon fab icon="github" size="lg" />
             </MDBBtn>
           </div>
         </MDBCardBody>

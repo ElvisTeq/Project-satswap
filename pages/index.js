@@ -1,4 +1,4 @@
-import styles from "../styles/Home.module.css";
+import classes from "../styles/Home.module.scss";
 import Head from "next/head";
 import { Fragment } from "react";
 import ServiceDetails from "../components/services/ServiceDetail";
