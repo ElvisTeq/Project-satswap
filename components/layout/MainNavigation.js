@@ -10,10 +10,10 @@ function MainNavigation() {
       <nav>
         <ul>
           <li>
-            <Link href="/log-in">Log In</Link>
+            <Link href="/log-in">Login</Link>
           </li>
           <li>
-            <Link href="/sign-up">Sign Up</Link>
+            <Link href="/sign-up">Register</Link>
           </li>
         </ul>
       </nav>
