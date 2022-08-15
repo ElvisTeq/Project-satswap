@@ -8,8 +8,13 @@ body {
 /* rgb(33,33,33) */
 
 a {
-  color: inherit;
+  color: inherit !important;
   text-decoration: none;
+}
+
+a:hover {
+  color: rgb(255, 152, 0) !important;
+  transition: 200ms ease-in;
 }
 
 * {
@@ -24,4 +29,8 @@ a {
 
 .content-wrap {
   flex: 1;
+}
+
+link {
+  color: white !important;
 }
